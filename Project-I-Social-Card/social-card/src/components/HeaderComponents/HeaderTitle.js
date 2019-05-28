@@ -7,7 +7,8 @@ const timestamp = moment().format('DD MMM')
 const HeaderTitle = ({ text, handle }) => (
   <div className='header-title'>
     <h4>{text}</h4>
-    <p>{handle}</p>
+    <p>@{handle}</p>
+    <span className='dot-divider'></span>
     <p>{timestamp}</p>
   </div>
 );

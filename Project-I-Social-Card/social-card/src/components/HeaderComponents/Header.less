@@ -1,0 +1,52 @@
+/* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  max-width: 40rem;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(177,187,196, .3);
+  padding-bottom: 0.5rem;
+
+  .header-title {
+    display: flex;
+    align-items: baseline;
+
+    &>* {
+      margin: .5rem .5em .5em 0;
+    }
+
+    .dot-divider {
+      display: inline-block;
+      height: 3px;
+      width: 3px;
+      border-radius: 50%;
+      background-color: #B1BBC4;
+      align-self: center;
+    }
+
+    p {
+      color: #B1BBC4;
+    }
+  }
+
+  .header-content {
+    p {
+      margin: 0;
+    }
+  }
+
+  .image-thumbnail {
+    display: inline-block;
+    padding: .5rem;
+    margin-right: 1rem;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 2.8rem;
+    height: 2.8rem;
+    
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+}
