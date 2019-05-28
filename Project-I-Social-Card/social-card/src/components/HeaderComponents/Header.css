@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+.header-container {
+  display: flex;
+}
+.header-container .header-title {
+  display: flex;
+  align-items: baseline;
+}
+.header-container .header-title > * {
+  margin: .5rem .5em .5em 0;
+}
+.header-container .header-title .dot-divider {
+  display: inline-block;
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: #B1BBC4;
+  align-self: center;
+}
+.header-container .header-title p {
+  color: #B1BBC4;
+}
+.header-container .header-content p {
+  margin: 0;
+}
+.header-container .image-thumbnail {
+  display: inline-block;
+  padding: .5rem;
+  margin-right: 1rem;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.header-container .image-thumbnail img {
+  width: 100%;
+  height: auto;
+}
