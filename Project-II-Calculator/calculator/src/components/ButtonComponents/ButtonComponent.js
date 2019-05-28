@@ -1,7 +1,9 @@
 import React from 'react';
+import Number from './NumberButton';
+import './Button.css';
 
 export default () => (
-  <div>
-    Hello World The Button components will be here in a minute.
-  </div>
+  <>
+    <Number />
+  </>
 );

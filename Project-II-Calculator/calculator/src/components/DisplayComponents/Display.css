@@ -8,5 +8,6 @@
 .calculator-display p {
   margin: 0;
   font-size: 4rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
