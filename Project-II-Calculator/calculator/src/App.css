@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.calculator {
+  max-width: 30rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
