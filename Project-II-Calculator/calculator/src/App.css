@@ -17,3 +17,11 @@ body {
 h3 {
   text-align: center;
 }
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
