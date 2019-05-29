@@ -1,0 +1,11 @@
+.numberButton, .symbolButton {
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  background-color: white;
+  border: .5px solid rgb(151, 151, 151);
+}
+
+.symbolButton {
+  color: white;
+  background-color: rgb(160, 1, 30);
+}
