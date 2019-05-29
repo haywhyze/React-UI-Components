@@ -2,11 +2,13 @@
   max-width: 30rem;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid black;
+  border: 1px solid rgb(151, 151, 151);
   margin: 0 auto;
 }
 
-.numberButton, .symbolButton {
+.numberButton, 
+.symbolButton, 
+.actionButton {
   font-size: 3rem;
   padding: 1rem 2rem;
   background-color: white;
@@ -17,4 +19,9 @@
 .symbolButton {
   color: white;
   background-color: rgb(160, 1, 30);
+}
+
+.actionButton {
+  width: 75%;
+  font-weight: 300;
 }

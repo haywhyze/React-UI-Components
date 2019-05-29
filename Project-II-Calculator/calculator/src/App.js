@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 const calculatorData = [
   {
@@ -93,8 +94,8 @@ const App = () => {
         {
           calculatorData.map(data => {
             return data.buttonStyles !== 'actionButton' ? 
-              (<NumberButton key={data.id} text={data.text} buttonStyles={data.buttonStyles}/>) :
-              (null);
+              (<NumberButton key={data.id} text={data.text} buttonStyles={data.buttonStyles} />) :
+              (<ActionButton key={data.id} text={data.text} buttonStyles={data.buttonStyles} />);
           })
         }
       </div>
