@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const calculatorData = [
   {
@@ -91,6 +92,7 @@ const App = () => {
     <div>
       <h3>Welcome to React Calculator</h3>
       <div className='buttonContainer'>
+        <CalculatorDisplay />
         {
           calculatorData.map(data => {
             return data.buttonStyles !== 'actionButton' ? 
