@@ -1,13 +1,14 @@
-.calculator-display {
-  background-color: #232323;
+.display {
+  width: 100%;
+  background-color: rgb(35, 35, 35);
   color: white;
   text-align: right;
   padding: 1rem;
-  border: 2px solid #979797;
+  border: 2px solid rgb(151, 151, 151);
 }
-.calculator-display p {
+
+.display p {
   margin: 0;
   font-size: 4rem;
-  font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }

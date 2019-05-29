@@ -1,36 +1,29 @@
-.button-container {
+.buttonContainer {
+  max-width: 30rem;
   display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgb(151, 151, 151);
+  margin: 0 auto;
 }
-.button-container .number,
-.button-container .action {
-  text-align: center;
-  border-collapse: collapse;
-  width: 80%;
-  border-top: none;
-  font-family: 'Roboto', sans-serif;
-}
-.button-container .number td,
-.button-container .action td {
-  border: 2px solid #979797;
-  font-size: 2.5rem;
-  padding: 1rem;
+
+.numberButton, 
+.symbolButton, 
+.actionButton {
+  font-size: 3rem;
   font-weight: 700;
+  padding: 1rem 2rem;
+  background-color: white;
+  border: .5px solid rgb(151, 151, 151);
+  width: 25%;
 }
-.button-container .number td.clear,
-.button-container .action td.clear {
-  border-top: none;
-  font-weight: 300;
-}
-.button-container .action {
-  width: 20%;
-  background-color: #A0011E;
+
+.symbolButton {
   color: white;
-}
-.button-container .action #divide {
-  border-top: none;
-}
-.button-container .action td {
+  background-color: rgb(160, 1, 30);
   font-weight: 300;
-  font-size: 2.5rem;
-  border-left: none;
+}
+
+.actionButton {
+  width: 75%;
+  font-weight: 300;
 }
