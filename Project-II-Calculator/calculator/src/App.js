@@ -97,7 +97,9 @@ const App = () => {
           calculatorData.map(data => {
             return data.buttonStyles !== 'actionButton' ? 
               (<NumberButton key={data.id} text={data.text} buttonStyles={data.buttonStyles} />) :
-              (<ActionButton key={data.id} text={data.text} buttonStyles={data.buttonStyles} />);
+              data.text !== '0' ? (<ActionButton key={data.id} text={data.text} buttonStyles={data.buttonStyles} />) : 
+                (<ActionButton key={data.id} text={data.text} buttonStyles={data.buttonStyles} bold={true} />)
+              ;
           })
         }
       </div>

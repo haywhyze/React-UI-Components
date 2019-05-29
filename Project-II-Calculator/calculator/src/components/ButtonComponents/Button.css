@@ -10,6 +10,7 @@
 .symbolButton, 
 .actionButton {
   font-size: 3rem;
+  font-weight: 700;
   padding: 1rem 2rem;
   background-color: white;
   border: .5px solid rgb(151, 151, 151);
@@ -19,6 +20,7 @@
 .symbolButton {
   color: white;
   background-color: rgb(160, 1, 30);
+  font-weight: 300;
 }
 
 .actionButton {
